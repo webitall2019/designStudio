@@ -1,0 +1,3 @@
+<IfModule mod_headers.c>
+    Header set Content-Security-Policy "default-src 'self' *.televizor-x.ru data: 'unsafe-inline' https://www.youtube.com https://yandex.ru https://mc.yandex.ru https://yastatic.net 'unsafe-eval'"
+</IfModule>
