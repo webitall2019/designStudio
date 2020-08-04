@@ -1052,6 +1052,7 @@ header {
   width: 31%;
   margin-right: 20px;
   padding: 5px;
+  overflow: hidden;
 }
 
 .blog .blog-block .blog-block-item:last-child {
