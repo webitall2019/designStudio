@@ -9,19 +9,19 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="format-detection" content="address=no">
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style/slick.css">
-    <link rel="stylesheet" href="style/slick-theme.css">
-    <link rel="stylesheet" href="style/my-serialize.css">
-    <link rel="stylesheet" href="style/main.css">
-    <title>Design Studio</title>
+    <link rel="stylesheet" href="./style/slick.css">
+    <link rel="stylesheet" href="./style/slick-theme.css">
+    <link rel="stylesheet" href="./style/my-serialize.css">
+    <link rel="stylesheet" href="./style/main.css">
+    <title>Pahu Design Studio </title>
 </head>
 
 <body>
-<div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v5.0"></script>
+    <!-- <div id="fb-root"></div> -->
+    <!-- <script async defer crossorigin="anonymous" src="https://connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v5.0"></script> -->
     <header>
-            <div class="navigation container">
-            <a class="logo" href="#">
+        <div class="navigation container">
+            <a class="logo" href="./">
                 <img src="img/logo.svg" alt="logo">
             </a>
             <ul class="navigation__menu">
@@ -172,7 +172,7 @@
                             <a href="#"><img src="img/like.svg" alt="like"></a>
                         </div>
                     </div>
-                    <img class="product-img" src="img/Layer_5.svg" alt="product">
+                    <img class="product-img lazy" data-src="img/Layer_5.svg" alt="product">
                     <div class="collection-products-item__content">
                         <span class="item__product-name">CORONA CHAIR</span>
                         <p class="item__product-descr">Printed evening dress with straight sleeves
@@ -190,7 +190,7 @@
                             <a href="#"><img src="img/like.svg" alt="like"></a>
                         </div>
                     </div>
-                    <img class="product-img" src="img/Layer2.svg" alt="product">
+                    <img class="product-img lazy" data-src="img/Layer2.svg" alt="product">
                     <div class="collection-products-item__content">
                         <span class="item__product-name">CORONA CHAIR</span>
                         <p class="item__product-descr">Printed evening dress with straight sleeves
@@ -208,7 +208,7 @@
                             <a href="#"><img src="img/like.svg" alt="like"></a>
                         </div>
                     </div>
-                    <img class="product-img" src="img/red-chair.svg" alt="product">
+                    <img class="product-img lazy" data-src="img/red-chair.svg" alt="product">
                     <div class="collection-products-item__content">
                         <span class="item__product-name">CORONA CHAIR</span>
                         <p class="item__product-descr">Printed evening dress with straight sleeves
@@ -226,7 +226,7 @@
                             <a href="#"><img src="img/like.svg" alt="like"></a>
                         </div>
                     </div>
-                    <img class="product-img" src="img/chair-green.svg" alt="product">
+                    <img class="product-img lazy" data-src="img/chair-green.svg" alt="product">
                     <div class="collection-products-item__content">
                         <span class="item__product-name">CORONA CHAIR</span>
                         <p class="item__product-descr">Printed evening dress with straight sleeves
@@ -244,7 +244,7 @@
                             <a href="#"><img src="img/like.svg" alt="like"></a>
                         </div>
                     </div>
-                    <img class="product-img" src="img/brown.svg" alt="product">
+                    <img class="product-img lazy" data-src="img/brown.svg" alt="product">
                     <div class="collection-products-item__content">
                         <span class="item__product-name">CORONA CHAIR</span>
                         <p class="item__product-descr">Printed evening dress with straight sleeves
@@ -262,7 +262,7 @@
                             <a href="#"><img src="img/like.svg" alt="like"></a>
                         </div>
                     </div>
-                    <img class="product-img" src="img/black-chair.svg" alt="product">
+                    <img class="product-img lazy" data-src="img/black-chair.svg" alt="product">
                     <div class="collection-products-item__content">
                         <span class="item__product-name">CORONA CHAIR</span>
                         <p class="item__product-descr">Printed evening dress with straight sleeves
@@ -280,7 +280,7 @@
                             <a href="#"><img src="img/like.svg" alt="like"></a>
                         </div>
                     </div>
-                    <img class="product-img" src="img/Layer2.svg" alt="product">
+                    <img class="product-img lazy" data-src="img/Layer2.svg" alt="product">
                     <div class="collection-products-item__content">
                         <span class="item__product-name">CORONA CHAIR</span>
                         <p class="item__product-descr">Printed evening dress with straight sleeves
@@ -299,7 +299,7 @@
                             <a href="#"><img src="img/like.svg" alt="like"></a>
                         </div>
                     </div>
-                    <img class="product-img" src="img/Layer_5.svg" alt="product">
+                    <img class="product-img lazy" data-src="img/Layer_5.svg" alt="product">
                     <div class="collection-products-item__content">
                         <span class="item__product-name">CORONA CHAIR</span>
                         <p class="item__product-descr">Printed evening dress with straight sleeves
@@ -318,13 +318,13 @@
                 <h2>OUR DESIGNER</h2>
                 <div class="dot"></div>
                 <div class="designers-block">
-                    <div class="designers-block-info"><img src="img/Polygon_2.svg" alt="">
+                    <div class="designers-block-info"><img data-src="img/Polygon_2.svg" alt="artist" class="lazy">
                         <span class="designer-name">Bertil Stam</span>
                     </div>
-                    <div class="designers-block-info"><img src="img/girl.svg" alt="">
+                    <div class="designers-block-info"><img data-src="img/girl.svg" alt="artist" class="lazy">
                         <span class="designer-name">Janet Park</span>
                     </div>
-                    <div class="designers-block-info"><img src="img/Polygon_3.svg" alt="">
+                    <div class="designers-block-info"><img data-src="img/Polygon_3.svg" alt="artist" class="lazy">
                         <span class="designer-name">Wm Munoz</span></div>
                 </div>
                 <div class="wrapper-block">
@@ -345,34 +345,34 @@
                     <span class="project-slider-item__descr">MODERN LIVING ROOM </span>
                     <span class="project-slider-item__interior">INTERIOR DESIGN</span>
                 </a>
-                <a href="#" class="project-slider-item__child --child-2">
+                <a href="#" class="project-slider-item__child --child-2 lazy">
                     <span class="project-slider-item__descr">MODERN LIVING ROOM </span>
                     <span class="project-slider-item__interior">INTERIOR DESIGN</span>
                 </a>
-                <a href="#" class="project-slider-item__child --child-3">
+                <a href="#" class="project-slider-item__child --child-3 lazy">
                     <span class="project-slider-item__descr">MODERN LIVING ROOM </span>
                     <span class="project-slider-item__interior">INTERIOR DESIGN</span>
                 </a>
 
-                <a href="#" class="project-slider-item__child --child-4">
+                <a href="#" class="project-slider-item__child --child-4 lazy">
                     <span class="project-slider-item__descr">MODERN LIVING ROOM </span>
                     <span class="project-slider-item__interior">INTERIOR DESIGN</span>
                 </a>
             </div>
             <div class="project-slider-item">
-                <a href="#" class="project-slider-item__child --child-5">
+                <a href="#" class="project-slider-item__child --child-5 lazy">
                     <span class="project-slider-item__descr">MODERN LIVING ROOM </span>
                     <span class="project-slider-item__interior">INTERIOR DESIGN</span>
                 </a>
-                <a href="#" class="project-slider-item__child --child-6">
+                <a href="#" class="project-slider-item__child --child-6 lazy">
                     <span class="project-slider-item__descr">MODERN LIVING ROOM </span>
                     <span class="project-slider-item__interior">INTERIOR DESIGN</span>
                 </a>
-                <a href="#" class="project-slider-item__child --child-7">
+                <a href="#" class="project-slider-item__child --child-7 lazy">
                     <span class="project-slider-item__descr">MODERN LIVING ROOM </span>
                     <span class="project-slider-item__interior">INTERIOR DESIGN</span>
                 </a>
-                <a href="#" class="project-slider-item__child --child-8">
+                <a href="#" class="project-slider-item__child --child-8 lazy">
                     <span class="project-slider-item__descr">MODERN LIVING ROOM </span>
                     <span class="project-slider-item__interior">INTERIOR DESIGN</span>
                 </a>
@@ -405,7 +405,7 @@
             <div class="dot"></div>
             <div class="blog-block">
                 <div class="blog-block-item">
-                    <img src="img/dan-gold-218879.svg" alt="blog-block-item-img">
+                    <img data-src="img/dan-gold-218879.svg" alt="blog-block-item-img" class="lazy">
                     <div class="blog-block-item__content">
                         <span class="blog-block-item__content__title">OUR NEW WORK SPACE</span>
                         <p class="blog-block-item__content__descr">Feel alive! So if you’re looking for, here is a list
@@ -416,7 +416,7 @@
                     </div>
                 </div>
                 <div class="blog-block-item">
-                    <img src="img/jason-briscoe-152940.svg" alt="blog-block-item-img">
+                    <img data-src="img/jason-briscoe-152940.svg" alt="blog-block-item-img" class="lazy">
                     <div class="blog-block-item__content">
                         <span class="blog-block-item__content__title">modern trend collection</span>
                         <p class="blog-block-item__content__descr">Feel alive! So if you’re looking for, here is a list
@@ -427,7 +427,7 @@
                     </div>
                 </div>
                 <div class="blog-block-item">
-                    <img src="img/suhyeon-choi-195419.svg" alt="blog-block-item-img">
+                    <img data-src="img/suhyeon-choi-195419.svg" alt="blog-block-item-img" class="lazy">
                     <div class="blog-block-item__content">
                         <span class="blog-block-item__content__title">A WOMAN THINKING</span>
                         <p class="blog-block-item__content__descr">Feel alive! So if you’re looking for, here is a list
@@ -498,16 +498,16 @@
                 </div>
 
             </div>
-        
-  </div>
+
+        </div>
     </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-    </script>
+        </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-    </script>
+        </script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/main.js"></script>

@@ -959,10 +959,12 @@ header {
   left: 35px;
 }
 
-.project .--child-1 {
+.project .--child-1.lazy {
+  background-image: none;
+}
+.project .--child-1{
   background-image: url(../img/bg_project_1.jpg);
 }
-
 .project .--child-2 {
   background-image: url(../img/bg_project_2.jpg);
 }
@@ -1292,8 +1294,10 @@ footer {
   cursor: pointer;
   position: absolute;
   background: transparent;
-  right: 35px;
-  top: 13px;
+  right: 10px;
+  top: 6px;
+  width: 40px;
+  height: 40px;
 }
 
 .main-footer .form button[type="submit"] .fa-arrow-right {
